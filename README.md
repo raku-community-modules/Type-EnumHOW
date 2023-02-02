@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/Kaiepi/p6-Type-EnumHOW.svg?branch=master)](https://travis-ci.org/Kaiepi/p6-Type-EnumHOW)
-
 NAME
 ====
 
@@ -39,7 +37,7 @@ Enums are not straightforward to create using their meta-object protocol since a
 
 It is recommended to declare enums at compile-time rather than at runtime so enums and their values can have their serialization context set. This can be done by either using `constant` in combination with `do` or using `BEGIN`.
 
-Type::EnumHOW extends Metamodel::EnumHOW. Refer to [its documentation](https://docs.perl6.org/type/Metamodel::EnumHOW) for more information.
+Type::EnumHOW extends Metamodel::EnumHOW. Refer to [its documentation](https://docs.raku.org/type/Metamodel::EnumHOW) for more information.
 
 METHODS
 =======
